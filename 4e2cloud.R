@@ -6,6 +6,11 @@ library(RCurl)
 library(XML)
 library(tm)
 
+#wordcloud
+wordcloud(demoFreq, size=1.6)
+?wordcloud2
+word = c('')
+
 # Read the text file from file
 #text = readLines(file.choose())
 #save the text file in root folder of the project
@@ -61,3 +66,4 @@ head(d, 10)
 barplot(d[1:10,]$freq, las = 2, names.arg = d[1:10,]$word,
         col ="lightblue", main ="Most frequent words",
         ylab = "Word frequencies")
+

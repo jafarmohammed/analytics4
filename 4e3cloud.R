@@ -22,3 +22,4 @@ filePath <- "http://www.sthda.com/sthda/RDoc/example-files/martin-luther-king-i-
 
 res<-rquery.wordcloud(filePath, type ="file", lang = "english")
 #res<-rquery.wordcloud(filePath2, type ="file", lang = "english")
+
